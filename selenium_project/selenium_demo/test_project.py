@@ -1,9 +1,6 @@
 import pytest
-from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
-from locators import Billing_locators
-from Test_methods import test_change_billing
-from conftest import Test_Base
+from selenium_project.selenium_demo.Test_methods import test_change_billing
+from selenium_project.selenium_demo.conftest import Test_Base
 @pytest.mark.usefixtures('test_setup')
 class Test_projekt(Test_Base):
    def test_continue(self,test_setup):

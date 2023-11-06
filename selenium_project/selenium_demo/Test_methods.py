@@ -4,7 +4,7 @@ from selenium.webdriver.common.by import By
 service = Service()
 options = webdriver.ChromeOptions()
 from selenium.webdriver.support.select import Select
-from locators import Billing_locators
+from selenium_project.selenium_demo.locators import Billing_locators
 import random
 import logging
 class test_change_billing:
